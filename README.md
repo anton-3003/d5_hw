@@ -1,6 +1,4 @@
-1. Тут [ссылка](https://immense-beyond-39470.herokuapp.com/) на платформу **heroku**
-<br>
-Либо можно скачать проект и проверить все локально
+1. Тут [ссылка](https://immense-beyond-39470.herokuapp.com/) на платформу **heroku**<br>Либо можно скачать проект и проверить все локально
 2. **Запустить консоль в папке проекта:**
     + актвировать вирт.окружение(..\\*django_test\\scripts>* activate.bat)
     + запустить сервер из директории **my_site**(..\\*my_site>* python manage.py runserver)
