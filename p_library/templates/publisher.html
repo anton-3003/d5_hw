@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Библиотека{% endblock%}
+
+{% block content %}
+
+    <h4>Издательства</h4>
+
+    <div class="col-md-6">
+        <ul class="list-group list-group-flush">
+            {% for publisher in publishers %}
+                <li class="list-group-item"><h6>{{  publisher }}</h6>
+                    <ul class="list-group">
+                        {% for book in publisher.books.all %}
+                            <li class="list-group-item">{{ book }}</li>
+                        {% endfor %}
+                    </ul>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+{% endblock %}
+
